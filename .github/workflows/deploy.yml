@@ -23,5 +23,6 @@ jobs:
       with:
         appName: ${{ secrets.SHINYAPPS_APPNAME }}
         accountName: ${{ secrets.SHINYAPPS_ACCOUNT }}
-        token: ${{ secrets.SHINYAPPS_TOKEN }}
-        secret: ${{ secrets.SHINYAPPS_SECRET }}
+        accountToken: ${{ secrets.SHINYAPPS_TOKEN }}
+        accountSecret: ${{ secrets.SHINYAPPS_SECRET }}
+        appDir: "."
